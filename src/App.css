@@ -1,0 +1,47 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    'search-bar search-bar search-bar title-top'
+    'video-player video-player video-player video-list'
+    'video-player video-player video-player video-list';
+}
+
+.title-top {
+  grid-area: title-top;
+  background: #FFD200;
+  color: #45B649;
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.search-bar {
+  grid-area: search-bar;
+  background: #300;
+}
+
+.video-player {
+  grid-area: video-player;
+  background: #45B649;
+}
+
+.video-list {
+  grid-area: video-list;
+  background: #FFD200;
+  padding: 15px;
+}
+
+.video-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #A00;
+  padding: 10px;
+}
+
+.video-description {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px;
+  color: #600;
+}
